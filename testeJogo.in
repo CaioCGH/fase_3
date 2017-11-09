@@ -1,0 +1,57 @@
+arena.in
+
+
+# Teste para verificação das novas implementações. As chamadas de
+# sistema MOV, REC e DEP foram testadas corretamente, além da
+# função ATR (pedida no enunciado), a função PCEL (que empilha um
+# OPERANDO com ponteiro para uma celula no topo da pilha).
+# Nos testes que realizamos o robô conseguiu executar corretamente
+# suas funções
+# A primeira linha desse arquivo deve conter o nome do arquivo que
+# será carregado para preencher a arena.
+
+
+    MOV 0
+    MOV 0
+    MOV 5
+    MOV 0
+    MOV 0
+    MOV 5
+    PUSH 5
+    PUSH 4
+    PCEL 5
+    ATR 0
+    PRN 0
+    PUSH 10
+    PUSH 10
+    PCEL 0
+    ATR 2
+    PRN 0
+    PUSH 4
+    PUSH 4
+    PCEL 0
+    ATR 3
+    PRN 0
+    REC 5
+    REC 5
+    REC 5
+    REC 5
+    REC 5
+    MOV 0
+    MOV 0
+    MOV 5
+    MOV 0
+    MOV 0
+    MOV 5
+    MOV 0
+    MOV 0
+    DEP 5
+    DEP 5
+    DEP 5
+    DEP 5
+    DEP 5
+    MOV 4
+    MOV 3
+    MOV 2
+    MOV 1
+    END 0

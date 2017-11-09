@@ -1,0 +1,41 @@
+arena.in
+  PUSH  8
+  PUSH  0
+  SAVE  0
+  PUSH  0
+  CALL  9
+  PRN  0
+  MOV  0
+  POP  0
+  JMP  0
+  ALLOC  2
+  PUSH  1
+  ADD  0
+  STL  1 //10
+  DUP  0
+  STL  2
+  PUSH  1
+  EQ  0
+  JIF  25
+  PUSH  1
+  RCE  1
+  PUSH  1
+  SUB  0
+  REST  0
+  FREE  2
+  RET  0 //22
+  RCE  2
+  PUSH  1
+  SUB  0
+  RCE  1
+  SAVE  0
+  RCE  1
+  CALL  9
+  RCE  2
+  MUL  0
+  RCE  1
+  PUSH  1
+  SUB  0
+  REST  0
+  FREE  2
+  RET  0
